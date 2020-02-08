@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/candidateName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/american_typewriter_regular"
+            android:text="TextView"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/candidatePhoto"
+            android:layout_width="166dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/candidateName"
+            app:srcCompat="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/runningFor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/american_typewriter_regular"
+            android:text="@string/runningFor"
+            android:textColor="@android:color/background_light"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/candidatePhoto" />
+
+        <TextView
+            android:id="@+id/candidateOffice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/american_typewriter_regular"
+            android:text="TextView"
+            android:textColor="@android:color/background_light"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/runningFor" />
+
+        <TextView
+            android:id="@+id/candidateParty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/american_typewriter_regular"
+            android:text="TextView"
+            android:textColor="@android:color/background_light"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/candidateOffice" />
+
+        <Button
+            android:id="@+id/candidatePhone"
+            android:layout_width="337dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/transparent"
+            android:text="Button"
+            android:textAllCaps="@bool/textAllCapsNo"
+            android:textColor="@color/candidateButton"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/candidateParty" />
+
+        <Button
+            android:id="@+id/candidateEmail"
+            android:layout_width="334dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/transparent"
+            android:text="Button"
+            android:textAllCaps="@bool/textAllCapsNo"
+            android:textColor="@color/candidateButton"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/candidatePhone" />
+
+        <Button
+            android:id="@+id/candidateWebsite"
+            android:layout_width="330dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/transparent"
+            android:text="@string/website"
+            android:textAllCaps="@bool/textAllCapsNo"
+            android:textColor="@color/candidateButton"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/candidateEmail" />
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>
+
+

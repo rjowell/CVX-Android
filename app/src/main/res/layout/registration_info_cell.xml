@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/stateName"
+            android:layout_width="87dp"
+            android:layout_height="34dp"
+            android:fontFamily="@font/kadwa_bold"
+            android:gravity="center"
+            android:lineSpacingExtra="0sp"
+
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:padding="0dp"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp"
+            android:shadowRadius="0"
+            android:text="TextView"
+            android:textColor="@android:color/white"
+            android:textColorHighlight="@android:color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/voterInfo"
+            android:layout_width="143dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="-5dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/kadwa_bold"
+            android:gravity="bottom|center"
+            android:padding="0dp"
+            android:text="@string/electionCal_information"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/stateName" />
+
+        <Button
+            android:id="@+id/onlineReg"
+            android:layout_width="183dp"
+            android:layout_height="35dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/kadwa_bold"
+            android:gravity="center"
+            android:lineSpacingExtra="0sp"
+            android:padding="0dp"
+            android:paddingBottom="0dp"
+            android:paddingEnd="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingStart="0dp"
+            android:paddingTop="0dp"
+            android:text="@string/electionCal_onlineReg"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/voterInfo" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>
+
+

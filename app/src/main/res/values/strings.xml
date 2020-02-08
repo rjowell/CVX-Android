@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">CVX</string>
+    <string name="homeMeetGovt">Meet Your Government</string>
+    <string name="homeTrackLegis">Track Legislation</string>
+    <string name="homeVoteReg">Register To Vote</string>
+    <string name="homeUpcomingVotes">See Upcoming Elections</string>
+    <string name="homeFeedback">Feedback</string>
+    <string name="repFinder_title">Representative Finder</string>
+    <string name="repFinder_description">Enter a location to see representatives. For best results, use a street address.</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_search">Search</string>
+    <string name="button_go">Go</string>
+    <string name="repFinder_localSwitch">Switch To State Search</string>
+    <string name="repFinder_stateSwitch">Switch To Local Search</string>
+    <string name="legisFinder_currentStatus">Current Status</string>
+    <string name="fullText">Full Text</string>
+    <string name="eMail">E-Mail</string>
+
+    <string name="currentStatusAsOf">Current Status As Of</string>
+    <string name="welcomeToCVX">Welcome To CVX!</string>
+    <string name="CVXWelcomeScreen">CVX is an app that puts government in the palm of your hand. This is your dashboard, where you can track pieces of legislation making their way through the lawmaking process, or check the status of upcoming elections in your area. Try clicking on one of the options below and see what CVX can do for you!</string>
+    <string name="seelctStates">Select States</string>
+    <string name="loading">Loading</string>
+    <string name="stateSelection">State Selection</string>
+    <string name="goHome">Go Home</string>
+    <string name="button_dismiss">Dismiss</string>
+    <string name="done">Done</string>
+    <string name="website">Website</string>
+    <string name="showAllBills">Show All Bills</string>
+    <string name="noDatesPicked">Select Dates or uncheck "Use Date Range"</string>
+    <string name="switchToStateSearch">Switch To State Search</string>
+    <string name="switchToLocalSearch">Switch To Local Search</string>
+    <string name="addressInvalid">Address Invalid! Try Again</string>
+    <string name="dateRangeError">"From" date is after "To" date</string>
+    <string name="searchThisState">Search This State</string>
+    <string name="addToCalendar">Add To Calendar</string>
+    <string name="sortByTopic">Sort By Topic</string>
+    <string name="runningFor">Running For:</string>
+    <string name="electionCalWelcome">Welcome To the Election Calendar:</string>
+    <string name="electionCalDescription">This tool helps keep track of upcoming elections in your state.  \n\nTo start, click "Select States" in the top right corner. If there are upcoming elections in the states you select, they will be shown in the calendar.\n\nIf you click the name of the election, you can see candidates for that race.  You can also add reminders for each election to your personal calendar by clicking "Add To Calendar"  \n\n*Data in this section is provided by VoteSmart, a nonprofit group of hard working people dedicated to providing accurate and current civic information, including  upcoming elections. This data is constantly updated and refined throughout the year, so if you don't see a certain election in your area, check back later (and consider supporting them at www.votesmart.org)! </string>
+
+    <string name="viewAllBills">View All Bills</string>
+    <string name="followThis">Follow This</string>
+    <string name="lawSearchDesc">Search titles and descriptions by keywords, separated by commas</string>
+    <string name="search">Search</string>
+    <string name="useDateRange">Use Date Range</string>
+    <string name="help">Help</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="sortByLastActionDate">Sort By Last Action Date</string>
+    <string name="stateRepInstructions">Select a state to see statewide representatives</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
+    <string name="cancel">Cancel</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="jumpToOffice">Jump To Office</string>
+    <string name="button_MainMenu">Main Menu</string>
+    <string name="legislation_selectState">Select State</string>
+    <string name="electionCal_selectState">Select States</string>
+    <string name="legislation_selectStateDesc">States in gray indicate legislatures not currently in session. Data may not be updated.</string>
+    <string name="registration_title">Voter Registration Information</string>
+    <string name="registration_description">States with online registration available have links included</string>
+    <string name="electionCal_instructions">Click on a race to view candidates</string>
+    <string name="electionCal_information">Information</string>
+    <string name="electionCal_onlineReg">Online Registration</string>
+    <string name="button_home">Home</string>
+    <string name="back_to_calendar">Back To Calendar</string>
+    <string name="candidates_for">Candidates For:</string>
+    <string name="topic_choose">Choose Topic</string>
+    <string-array name="topicChooser">
+        <item>Education</item>
+        <item>Healthcare</item>
+        <item>Public Safety</item>
+        <item>Economy</item>
+        <item>Environment</item>
+        <item>Women's Issues</item>
+        <item>LGBT Issues</item>
+        <item>Governmnet</item>
+        <item>Immigration</item>
+        <item>Foreign Policy</item>
+    </string-array>
+
+
+</resources>

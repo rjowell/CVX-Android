@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3e4d99</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="search_window_back">#97abc9</color>
+    <color name="linkColor">#0617b5</color>
+    <color name="candidateButton">#8a92e6</color>
+    <color name="mainButtonColor">#030963</color>
+</resources>
